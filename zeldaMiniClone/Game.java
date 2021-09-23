@@ -40,6 +40,7 @@ public class Game extends Canvas implements Runnable, KeyListener {
 		
 		g.setColor(Color.black);
 		g.fillRect(0, 0, WIDTH, HEIGHT);
+		new Spritesheet();
 		
 		player.render(g);
 		
